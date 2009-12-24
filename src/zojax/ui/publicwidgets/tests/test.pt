@@ -1,0 +1,5 @@
+<tal:block content="structure pageelement:zojax.ui.publicwidgets.sharepublic" />
+
+<div tal:content="structure portlet:portlet.actions" />
+
+<div tal:content="context/@@absolute_url"></div>
