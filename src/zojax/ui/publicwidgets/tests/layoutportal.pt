@@ -1,0 +1,5 @@
+<html>
+  <body>
+    <div tal:content="structure view/render" />
+  </body>
+</html>

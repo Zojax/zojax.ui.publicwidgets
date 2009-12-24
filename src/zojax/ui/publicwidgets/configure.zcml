@@ -1,0 +1,25 @@
+<configure
+   xmlns="http://namespaces.zope.org/zope"
+   xmlns:i18n="http://namespaces.zope.org/i18n"
+   xmlns:zojax="http://namespaces.zope.org/zojax"
+   i18n_domain="zojax.ui.publicwidgets">
+
+ <!-- share public -->
+  <zojax:pageelement
+     for="*"
+     name="zojax.ui.publicwidgets.sharepublic"
+     template="sharepublic.pt" />
+
+  <zojax:resource
+     name="share.png"
+     file="icons/share.png" />
+
+  <adapter
+     name="content.sharepublic"
+     for="* * zojax.content.type.interfaces.IContentView"
+     factory=".contentactions.SharePublicContentAction" />
+
+  <!-- translations -->
+  <i18n:registerTranslations directory="locales"/>
+
+</configure>

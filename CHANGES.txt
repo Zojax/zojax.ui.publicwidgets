@@ -1,0 +1,32 @@
+=======
+CHANGES
+=======
+
+0.3.0 (2009-08-12)
+------------------
+
+- Copyright changed to 'Zope Foundation and Contributors'
+
+
+0.2.0 (2009-05-14)
+------------------
+
+- Register share public action only for IContentView view
+
+- Shorter add to any widget.
+
+- Onhover appearing.
+
+- Fix hide embeds
+
+
+0.1.1 (2009-04-09)
+------------------
+
+- Content action separated to config.
+
+
+0.1.0 (2009-04-08)
+------------------
+
+- Initial release.
