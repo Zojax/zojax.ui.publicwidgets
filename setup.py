@@ -57,7 +57,9 @@ setup(name = 'zojax.ui.publicwidgets',
                                 'zope.securitypolicy',
                                 'zojax.security',
                                 'zojax.autoinclude',
-                                'zojax.content.type',]
+                                'zojax.content.type',
+                                'zojax.seo',
+                                ]
                             ),
       install_requires=['setuptools',
                         'zojax.pageelement',

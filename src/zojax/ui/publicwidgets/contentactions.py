@@ -20,9 +20,9 @@ from zope.app.pagetemplate import ViewPageTemplateFile
 from zojax.content.actions.action import Action
 
 from interfaces import ISharePublicContentAction
+from sharepublic import SharePublic
 
-
-class SharePublicContentAction(Action):
+class SharePublicContentAction(Action, SharePublic):
     interface.implements(ISharePublicContentAction)
 
     url = ''

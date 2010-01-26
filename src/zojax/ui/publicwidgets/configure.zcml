@@ -8,7 +8,8 @@
   <zojax:pageelement
      for="*"
      name="zojax.ui.publicwidgets.sharepublic"
-     template="sharepublic.pt" />
+     template="sharepublic.pt"
+     class=".sharepublic.SharePublic" />
 
   <zojax:resource
      name="share.png"
