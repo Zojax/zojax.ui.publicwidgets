@@ -62,6 +62,7 @@ setup(name = 'zojax.ui.publicwidgets',
                                 ]
                             ),
       install_requires=['setuptools',
+                        'simplejson',
                         'zojax.pageelement',
                         'zojax.content.actions',
                         ],

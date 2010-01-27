@@ -15,6 +15,7 @@
 
 $Id$
 """
+import simplejson
 from zope.app.component.hooks import getSite
 from zope.app.component.interfaces import ISite
 from zope.component import getMultiAdapter
@@ -44,6 +45,6 @@ class SharePublic(object):
                 portal_title = tags.title
             else:
                 portal_title = getMultiAdapter((site, request), IBreadcrumb).name
-            return '%s - %s'%(title, portal_title)
+            return simplejson.dumps('%s - %s'%(title, portal_title))
         else:
-            return title
+            return simplejson.dumps(title)
