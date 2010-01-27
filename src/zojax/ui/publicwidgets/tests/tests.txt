@@ -16,13 +16,13 @@ We see public services element, and portlet action
     >>> print actor.contents
     <html...
     ...
-    ...a2a_linkname='top'</script><a class="a2a_dd" href="http://www.addtoany.com/share_save"><img border="0" alt="Share/Save/Bookmark" src="http://localhost/@@/share.png" /></a><script type="text/javascript">a2a_linkname=a2a_linkname || document.title;a2a_linkurl=location.href;a2a_onclick=0;a2a_hide_embeds=0;</script><script type="text/javascript" src="http://static.addtoany.com/menu/page.js"></script><div><div class="z-portlet portlet-actions">
+    ...<script type="text/javascript">a2a_linkname='top';</script><a class="a2a_dd" href="http://www.addtoany.com/share_save"><img border="0" alt="Share/Save/Bookmark" src="http://localhost/@@/share.png" /></a><script type="text/javascript">a2a_linkname=a2a_linkname || document.title;a2a_linkurl=location.href;a2a_onclick=0;a2a_hide_embeds=0;</script><script type="text/javascript" src="http://static.addtoany.com/menu/page.js"></script><div><div class="z-portlet portlet-actions">
       <h2 class="z-portlet-header">Actions</h2>
       <div class="z-portlet-body">
         <div class="z-portlet-item">
           <ul class="z-listing">
             <li class="even">
-      <script type="text/javascript">a2a_linkname='top'</script>
+      <script type="text/javascript">a2a_linkname='top';</script>
     <a class="a2a_dd" href="http://www.addtoany.com/share_save"><img
         border="0" alt="Share/Save/Bookmark"
         src="http://localhost/@@/share.png" /></a><script type="text/javascript">a2a_linkname=a2a_linkname || document.title;a2a_linkurl=location.href;a2a_onclick=0;a2a_hide_embeds=0;</script><script type="text/javascript" src="http://static.addtoany.com/menu/page.js"></script>
