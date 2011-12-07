@@ -19,7 +19,7 @@ from zope import interface
 from zope.i18nmessageid import MessageFactory
 from zojax.content.actions.interfaces import IContentAction
 
-_ = MessageFactory('zojax.publicservices')
+_ = MessageFactory('zojax.ui.publicwidgets')
 
 
 class ISharePublicContentAction(IContentAction):
